@@ -115,6 +115,23 @@ body {
     width: 100%;
 }
 
+.resume-btn {
+    padding: 8px 15px;
+    text-decoration: none;
+    background: linear-gradient(90deg, #4facfe, #00f2fe);
+    color: black;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: 0.3s ease;
+    display: inline-block;
+    margin-top: 1px;
+}
+
+.resume-btn:hover {
+    background: linear-gradient(90deg, #00f2fe, #4facfe);
+    transform: translateY(-2px);
+}
+
 /* Hero Section */
 .hero {
     min-height: 100vh;
@@ -870,4 +887,5 @@ body {
     font-size: 5rem;
     }
     
+
 }
